@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261119/pytraaa9-ai/news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 [![reward](https://make.fun/badge/news-image-20261119/pytraaa9-ai/news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
 
-A program that writes one image summing up Thursday 19 November 2026 world news — a newspaper front page (1024×1024 PNG): lead story the first Trump–Xi–Putin trilateral at APEC in Shenzhen, plus 32 more stories across six continents, a world map, and the day's biggest business story, Anthropic's record $81.3bn IPO.
+A program that writes one image summing up the full day of Thursday 19 November 2026 world news — a newspaper front page (1024×1024 PNG): lead story the UN court ruling that Myanmar committed genocide against the Rohingya, plus 37 more stories across six continents, a world map, and the day's biggest business story, Anthropic's record IPO debut.
 
 ## Run it
 
@@ -14,44 +14,49 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 
 ## The day's news
 
-- **Lead:** Trump, Xi and Putin meet in Shenzhen — the first trilateral of the three leaders opens at APEC; nuclear arms, Ukraine, Iran and trade on the table; Xi hugged Trump on arrival; Putin sees "big potential benefit".
-- Crimea Bridge hit a third time this week; traffic halted
+- **Lead:** The UN's top court rules 9–6 that Myanmar's army acted with genocidal intent against the Rohingya in 2017 — the first time it has held a state responsible for genocide. Refugees in Bangladesh cheered as the verdict was read.
+- **The summit in Shenzhen:** Trump, Xi and Putin hold the first three-way summit of the great powers and issue a four-point "Declaration toward Peace" — "a nuclear war cannot be won" — but no deal on Ukraine.
+- Crimea Bridge hit a third time; Putin vows a harsher response
 - EU proposes a €45bn Ukraine loan, repaid once Russia pays reparations
-- Russian arrested for spying on US defence firm Palantir over Ukraine support
+- Ukraine's European allies meet in Berlin, say they are ready for talks with Russia
+- Denmark ratifies the US–Greenland security deal 109–0; two new defence areas
+- EU Commission hit in an AI-powered cyberattack
 - France braces for a fourth weekend of cost-of-living protests; police clash with strikers in Spain
 - Van Gogh painting sells for a record $190.4m after a row over its Nazi-era history
 - Democrats nominate Hakeem Jeffries for Speaker 251–11; he would be the first Black Speaker
-- Anthropic's IPO raises a record $81.3bn at $83 a share; trading starts today as ANT
-- US senators warn AI-enabled cyber threats are outpacing defences
-- Fed minutes point to more rate hikes
-- Nvidia halts H-series chip shipments to China
 - Liu Yunping makes history as the first Taiwanese American to chair the House Democratic Caucus
-- US panel targets China over Panama-flagged ship seizures
+- Trump posthumously pardons Pete Rose
+- Anthropic's debut: shares open at $111.50, briefly top a $2tn value, then close at $97.17, up 17%
+- Wall Street slides 2% for a fifth straight day; S&P 500 falls 2.02%, Nikkei drops 4.68%
+- Nvidia halts H-series chip shipments to China
 - Microsoft eyes an AI deal with ByteDance
-- Eisenkot tapped to form Israel's government, bypassing Netanyahu
-- Four nations demand Gaza aid access as floods worsen
-- Israeli tanks cross the Gaza ceasefire line in a rare ground raid
-- Saudi Arabia says the danger has passed in three southern cities
-- US–Iran exchanges grind on around the Gulf; oil eases
+- US panel targets China over Panama-flagged ship seizures
+- Israel ends its Nuseirat ground raid a day after it began; four killed
+- Aid groups score the Gaza peace plan 4 of 26; five groups say it is falling far short
 - 1,100 child amputees in Gaza face treatment limits, NGO says
-- Canada recalibrates its China ties
-- India and Japan open 2+2 defence talks
+- Eisenkot tapped to form Israel's government, bypassing Netanyahu
+- Iran escalates Hormuz tanker attacks; Kuwait says it repelled an Iranian attack
+- Houthi rocket debris hits a Riyadh tower after an intercepted attack
+- West presses Iran at the IAEA to let inspections resume at bombed nuclear sites
+- Bangladesh violence spreads; Yunus's ancestral home torched, protests hit 28 districts
+- Mongolia's president resigns; parliament accepts
+- IAEA says North Korea has expanded uranium enrichment
 - Cyclone Akvan bears down on India's east coast
-- Myanmar faces a historic genocide verdict at the UN court
-- GTA VI rolls out worldwide; gamers enter Vice City
+- India and Japan open 2+2 defence talks
+- Tanzania opposition leader Lissu convicted of sedition
+- Migrant boat capsizes off Senegal; dozens missing
+- Haiti raid kills 34 gang members; police retake the Martissant corridor
+- US and Venezuela sign a military cooperation deal
 - Australia sanctions Israeli settlement expansion in the West Bank
-- India's Congress presses Modi on inflation
-- US details $12bn in Venezuelan oil and mineral revenue
-- Bukele hails a raid on a Haiti gang leader's home
 - Voyager 1 hits one light-day from Earth
-- Pew: Islam on track to be the world's largest religion by 2035
-- World COPD Day spotlights early diagnosis
+- GTA VI rolls out worldwide; gamers enter Vice City
+- US loses measles elimination status after outbreaks and falling vaccine coverage
 - BBC report on abuse at McDonald's shocks
 
 All stories were verified against at least two reputable sources
-(Reuters, AP, AFP, Al Jazeera, UN News, NASA) on 19 November 2026.
-Note: this v1 entry covers overnight and morning news of 19 November
-2026; afternoon and evening developments go into a full-day v2.
+(Reuters, AP, AFP, BBC, Al Jazeera, UN News, NASA) on 19–20 November 2026.
+Note: this v2 entry covers the full day of 19 November 2026,
+replacing the morning-only v1 entry.
 
 ## How it works
 
